@@ -89,7 +89,7 @@ public int fibonacci(int n)
 	return fibonacci(n - 1) + fibonacci(n -2);   
 	}
 
-
+}
     
     /**
      * Class that represents a tree. This is a data structure comprised of several nodes. Each node may
@@ -136,6 +136,7 @@ protected final class Tree
 	children.add(child);
     }
 }
+
     
     /**
      * In a binary tree, each node has two children. In a ternary tree, each node has 3 children.
