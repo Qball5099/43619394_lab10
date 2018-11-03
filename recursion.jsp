@@ -107,10 +107,9 @@ public int fibonacci(int n)
      *      root.add(child1);
      *      root.add(child2);
      *      
-     * THIS CLASS IS PROVIDED FOR YOU. YOU SHOULD NOT CHANGE IT!
      * 
-     * @author Stephen
-     * @version 2018-04-23
+     * @author Quinn Brum
+     * @version 2018-11-02
      */
 protected final class Tree
 {
@@ -119,22 +118,22 @@ protected final class Tree
     
     public Tree(int value)
     {
-	//TODO
+	this.value = value;
     }
     
     public int getValue()
     {
-	//TODO
+	return value;
     }
     
     public ArrayList<Tree> getChildren()
     {
-	//TODO
+	return children;
     }
     
     public void add(Tree child)
     {
-	//TODO
+	children.add(child);
     }
 }
     
